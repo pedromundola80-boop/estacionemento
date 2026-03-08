@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Sistema de Estacionamento</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Sistema de Estacionamento</h1>
+
+<h3 id="contador"></h3>
+<h3 id="faturamento"></h3>
+
+
+<input id="placa" placeholder="Digite a placa">
+
+<button onclick="registrar()">Registrar Entrada</button>
+
+<button onclick="limparEstacionamento()">
+Limpar Estacionamento
+</button>
+
+<h2>Carros no estacionamento</h2>
+
+<h2>Carros no estacionamento</h2>
+
+<table id="tabela">
+
+<thead>
+<tr>
+<th>Placa</th>
+<th>Entrada</th>
+<th>Tempo</th>
+<th>Ação</th>
+</tr>
+</thead>
+
+<tbody id="lista">
+</tbody>
+
+</table>
+
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
